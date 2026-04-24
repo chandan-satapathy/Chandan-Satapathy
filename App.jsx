@@ -9,6 +9,8 @@ import Admin from './pages/Admin'
 export default function App() {
   const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'dark')
 
+
+  
   useEffect(() => {
     document.documentElement.classList.toggle('light', theme === 'light')
     localStorage.setItem('theme', theme)
