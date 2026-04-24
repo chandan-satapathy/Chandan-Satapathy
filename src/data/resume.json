@@ -1,0 +1,93 @@
+{
+  "name": "Chandan Satapathy",
+  "email": "satapathy.chandan1008@gmail.com",
+  "phone": "+91-704-212-8930",
+  "location": "Bangalore, India",
+  "github": "https://github.com/chandan-satapathy",
+  "linkedin": "https://linkedin.com/in/chandan-satapathy",
+  "tagline": "Backend Engineer · Distributed Systems · Cloud-Native",
+  "summary": "Backend engineer with 3+ years scaling B2B supply chains at India's largest e-commerce platform. I build systems that handle millions of events daily — reliably.",
+  "metrics": [
+    { "value": "50%", "label": "CPU Cost Cut" },
+    { "value": "80%", "label": "Item Accountability" },
+    { "value": "20+", "label": "Warehouses Owned" },
+    { "value": "3M+", "label": "Retailers Served" }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer 2",
+      "company": "Udaan.com",
+      "companyDesc": "India's largest B2B E-commerce",
+      "period": "Aug 2024 – Sept 2025",
+      "location": "Bangalore",
+      "bullets": [
+        "Owned Warehouse Management & Storage Systems (WMS) across 20+ warehouses, processing millions of inventory events daily — sole engineer accountable for system reliability and roadmap.",
+        "Engineered end-to-end Double Dispatch logistics feature (Kotlin + TypeScript) enabling parallel manifest generation, improving dispatch throughput by ~30%.",
+        "Built the Asset Receipt Note (ARN) system across 3 sequential phases with concurrency-safe distributed locks, CosmosDB bulk upserts, and tote reconciliation.",
+        "Led database optimization on Azure SQL & CosmosDB via forced index redesign and access-pattern refactoring — cut CPU from 32 to 16 cores (50% cost reduction).",
+        "Established Prometheus-based observability across 4+ microservices — reducing mean time to detection (MTTD) for P0 incidents by ~40%.",
+        "Implemented retry, timeout & circuit-breaker patterns across Picklist and archival workflows — reducing on-call escalations by ~25% QoQ.",
+        "Led JDBI v2→v3 and JUnit 4→5 parent library upgrades, reducing CI build failures by ~20%."
+      ]
+    },
+    {
+      "role": "Software Engineer 1",
+      "company": "Udaan.com",
+      "companyDesc": "India's largest B2B E-commerce",
+      "period": "Aug 2022 – Aug 2024",
+      "location": "Bangalore",
+      "bullets": [
+        "Built anomaly detection framework (Python + Prophet) in the warehouse data pipeline — reducing system availability drops by 30% across 100K+ daily procurement records.",
+        "Resolved critical CosmosDB throttling by refactoring query patterns and batching bulk writes — reduced throttling events by 37%.",
+        "Designed real-time operational dashboards in React + TypeScript for ground teams, adopted across 5+ sites by 100+ ops users.",
+        "Contributed to Fresh vertical platform migration — achieving 50% improvement in ground picking times and 80% increase in item accountability.",
+        "Expanded unit and integration test coverage by 25%, migrating 50+ test suites to JUnit 5.",
+        "Designed data archival jobs reducing active table sizes by ~40% and cutting long-tail query latency."
+      ]
+    },
+    {
+      "role": "Machine Learning Intern",
+      "company": "Enthire Co.",
+      "companyDesc": "Remote",
+      "period": "Jan 2021 – Jul 2021",
+      "location": "Remote",
+      "bullets": [
+        "Developed production ML models & REST APIs (Python + FastAPI) — improved accuracy from ~78% to 94% via feature engineering with Scikit-Learn and TensorFlow.",
+        "Built 1-click AWS deployment module auto-provisioning FastAPI backends with Docker and a Streamlit monitoring dashboard — reduced setup from 4+ hours to under 5 minutes (98% reduction)."
+      ]
+    }
+  ],
+  "skills": [
+    { "category": "Languages", "items": ["Kotlin", "Java", "Python", "TypeScript", "JavaScript", "Dart"] },
+    { "category": "Databases", "items": ["Azure SQL", "CosmosDB", "MongoDB", "MySQL", "Redis"] },
+    { "category": "Cloud & Infra", "items": ["Microsoft Azure", "AWS Lambda", "EC2 / S3", "GCP", "Docker", "Terraform"] },
+    { "category": "Frameworks", "items": ["FastAPI", "Flask", "Django", "React", "Flutter", "Pyramid"] },
+    { "category": "ML / Data", "items": ["TensorFlow", "Scikit-Learn", "Pandas", "NumPy", "Prophet", "Matplotlib"] },
+    { "category": "Observability", "items": ["Prometheus", "Jetty", "JDBI v3", "JUnit 5"] },
+    { "category": "Core CS", "items": ["Distributed Systems", "System Design", "DSA", "Concurrency", "TDD", "CI/CD"] },
+    { "category": "Patterns", "items": ["Circuit Breaker", "Retry Logic", "Event Sourcing", "Microservices"] }
+  ],
+  "education": [
+    {
+      "school": "National Institute of Technology, Kurukshetra",
+      "degree": "B.Tech, Electrical Engineering",
+      "grade": "CGPA: 9.16 / 10",
+      "year": "May 2022",
+      "notes": "Competitive programmer · Electroreck Tech Club Core Member (4 years) · Debate Club"
+    },
+    {
+      "school": "Ryan International School, Gurgaon",
+      "degree": "Senior Secondary (PCM + Economics)",
+      "grade": "94.4% · Secondary: 10/10 CGPA",
+      "year": "",
+      "notes": "Scholar Badges for Oratory, Diplomatic and Governance Skills"
+    }
+  ],
+  "achievements": [
+    { "code": "GH", "title": "Google Hash Code 2021", "desc": "Global Rank 2,613 out of hundreds of thousands of participants worldwide." },
+    { "code": "HR", "title": "HackerRank Algorithms", "desc": "Rank 3,210 / 3.4M+ users — top 0.01% globally." },
+    { "code": "CC", "title": "CodeChef September Challenge 2020", "desc": "Global Rank 357 / 30,000 participants." },
+    { "code": "MU", "title": "7 MUN Awards", "desc": "Including 4 High Commendations across 8 national & international conferences, 2016–2018." }
+  ],
+  "interests": "Finance, economics & international affairs · competitive programming · avid reader of novels and mythology"
+}
