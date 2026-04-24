@@ -1,4 +1,4 @@
-# Chandan Satapathy — Personal Portfolio
+# Chandan Satapathy — Personal Portfolio!
 
 A personal portfolio site built with **React + Vite**, styled with **Tailwind CSS**, and hosted on **GitHub Pages**. Content is editable via a built-in Admin panel that commits changes directly to this repo via the GitHub API.
 
